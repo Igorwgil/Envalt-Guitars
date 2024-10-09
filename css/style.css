@@ -7,3 +7,15 @@
 html, body{
     height: 100%;
 }
+header{
+    text-align: center;
+    border: 1px solid grey;
+}
+
+header > h1,
+header > div#bottons-follow-us-header{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+
