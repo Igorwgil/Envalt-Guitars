@@ -14,11 +14,21 @@ html, body{
     height: 100vh;
 }
 header{
+    height: 90px;
     width: 100%;
+    padding: 0px 60px;
     border: 1px solid grey;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
