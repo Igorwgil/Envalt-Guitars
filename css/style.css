@@ -1,21 +1,24 @@
+/* cONFIGURAÇÕES GERAIS */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+    color: white;
+}
+
 html, body{
     height: 100vh;
 }
 header{
-    text-align: center;
+    width: 100%;
     border: 1px solid grey;
+    display: flex;
+    justify-content: center;
 }
 
-header > h1,
-header > div#bottons-follow-us-header{
-    display: inline-block;
-    margin: 0px 30px;
-}
 
 
